@@ -59,6 +59,7 @@ public class DailyPlanner {
             System.out.println("Son las " + time + " horas");
             System.out.println("Actividad sugerida: Es hora de dormir"); 
          }
+      }        
 
       if (day == 6 || day == 7) {
        if (time >= 24 || time < 0) {
@@ -79,9 +80,8 @@ public class DailyPlanner {
             System.out.println("Son las " + time + " horas");
             System.out.println("Actividad sugerida: Dormí tranquilo, es fin de semana.");
          }
-       } 
-       scanner.close();
       }
+       scanner.close();   
    }
 }  
    
